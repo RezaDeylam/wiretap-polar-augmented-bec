@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Generated outputs
+results/*.csv
+figures/*.pdf
+figures/*.png
+!figures/.gitkeep
+!results/.gitkeep
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# OAI build artifacts (in case OAI source is co-located)
+openairinterface5g/cmake_targets/ran_build/
+*.log
